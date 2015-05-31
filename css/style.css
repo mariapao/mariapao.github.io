@@ -1,0 +1,63 @@
+body {
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:  fixed;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.main {
+	width: 600px;
+	background-color: transparent;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius:  20px;
+	box-shadow:  10px 10px 100px 10px white;
+}
+
+h1 {
+	font-family: 'Lora', serif;
+	font-size: : 60px;
+	text-shadow: 0 0 40px white;
+	text-align: right;
+}
+
+h1,
+h2 {
+	text-align: center;
+}
+
+/* like this */
+h2{
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 10px;
+	
+	font-family: 'Lora', serif;
+}
+
+img {
+	margin: 0 auto;
+	display: block;
+	width: 300px; 
+	border: 20px dashed white;
+	border-radius: 50%;
+}
+
+p,
+ul,
+ol {
+	line-height: 1.4;
+	list-style: none;
+	padding-left: 0;
+} 
+
+a{
+	text-decoration: none;
+	font-weight:  bold;
+	color: white;
+}
+a:hover {
+	text-decoration: underline;
+	color: white;
+}
